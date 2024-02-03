@@ -1,12 +1,12 @@
-# PyOnlyScraper 🚀
+# OnlyScraperPy 🚀
 
 ## Overview 📖
 
-PyOnlyScraper bridges the gap between Rust and Python, offering a high-performance web scraping tool built upon a compiled version of the [Only Scraper Rust library](https://github.com/edlugora96/only_scraper). This Python adaptation retains the core principles of minimalism and efficiency, making it a superior choice for developers who require the speed of Rust with the flexibility of Python for their scraping tasks. It's designed for those looking to leverage Rust's performance benefits within Python's versatile ecosystem.
+OnlyScraperPy bridges the gap between Rust and Python, offering a high-performance web scraping tool built upon a compiled version of the [Only Scraper Rust library](https://github.com/edlugora96/only_scraper). This Python adaptation retains the core principles of minimalism and efficiency, making it a superior choice for developers who require the speed of Rust with the flexibility of Python for their scraping tasks. It's designed for those looking to leverage Rust's performance benefits within Python's versatile ecosystem.
 
-## Why PyOnlyScraper? 🤔
+## Why OnlyScraperPy? 🤔
 
-In a landscape flooded with web scraping solutions, PyOnlyScraper distinguishes itself by harnessing the raw speed and reliability of Rust, combined with the ease of use and widespread adoption of Python. It eliminates the complexity often associated with performing high-speed scraping tasks in Python, offering a streamlined, Rust-powered backend with a simple Python interface. This unique fusion ensures your scraping operations are both fast and straightforward, without the burden of external dependencies.
+In a landscape flooded with web scraping solutions, OnlyScraperPy distinguishes itself by harnessing the raw speed and reliability of Rust, combined with the ease of use and widespread adoption of Python. It eliminates the complexity often associated with performing high-speed scraping tasks in Python, offering a streamlined, Rust-powered backend with a simple Python interface. This unique fusion ensures your scraping operations are both fast and straightforward, without the burden of external dependencies.
 
 ## Features 🌟
 
@@ -19,17 +19,15 @@ In a landscape flooded with web scraping solutions, PyOnlyScraper distinguishes 
 
 ### Installation 🛠️
 
-To install PyOnlyScraper, use pip to fetch and install the package directly from PyPI:
+To install OnlyScraperPy, use pip to fetch and install the package directly from PyPI:
 
 ```bash
 pip install only-scraperpy
 ```
 
-This command will compile the Rust library and install the Python package, making it ready to use in your project.
-
 ### Usage 📝
 
-PyOnlyScraper simplifies web scraping in Python by providing a straightforward interface. Here's a quick example to get you started:
+OnlyScraperPy simplifies web scraping in Python by providing a straightforward interface. Here's a quick example to get you started:
 
 ```python
 from only_scraperpy import OnlyScraper
@@ -45,16 +43,16 @@ if __name__ == "__main__":
 
 ```
 
-This snippet demonstrates how to fetch and print the HTML content of a specified URL, showcasing the efficiency and ease of use of PyOnlyScraper.
+This snippet demonstrates how to fetch and print the HTML content of a specified URL, showcasing the efficiency and ease of use of OnlyScraperPy.
 
 ## Original Rust Library
 
-PyOnlyScraper is based on the powerful and efficient [Only Scraper Rust library](https://github.com/edlugora96/only_scraper), created to offer a minimalist and high-performance web scraping solution. For those interested in the Rust version or contributing to its development, please visit the [GitHub repository](https://github.com/edlugora96/only_scraper).
+OnlyScraperPy is based on the powerful and efficient [Only Scraper Rust library](https://github.com/edlugora96/only_scraper), created to offer a minimalist and high-performance web scraping solution. For those interested in the Rust version or contributing to its development, please visit the [GitHub repository](https://github.com/edlugora96/only_scraper).
 
 ## Contributing 🤝
 
-Contributions are highly appreciated to further refine and enhance PyOnlyScraper. Whether you have ideas for new features, bug fixes, or improvements, we encourage you to share your insights through GitHub issues or pull requests.
+Contributions are highly appreciated to further refine and enhance OnlyScraperPy. Whether you have ideas for new features, bug fixes, or improvements, we encourage you to share your insights through GitHub issues or pull requests.
 
 ## License 📄
 
-PyOnlyScraper is released under the MIT License, embracing the same open-source spirit as its Rust counterpart. For more details, please refer to the LICENSE file in the repository.
+OnlyScraperPy is released under the MIT License, embracing the same open-source spirit as its Rust counterpart. For more details, please refer to the LICENSE file in the repository.

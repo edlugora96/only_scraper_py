@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="only_scraperpy",
-    version="0.1.6",
+    version="0.1.7",
     packages=find_packages(),
     license="MIT",
     description="Only scrape webpages from rust to python",
